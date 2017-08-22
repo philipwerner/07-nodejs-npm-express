@@ -2,7 +2,7 @@
   "name": "blog-articles",
   "version": "1.0.0",
   "description": "Lab 7 working with node and npm",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "none"
   },

@@ -8,6 +8,7 @@
 // Be sure to install that and save it as a dependency after you create your package.json.
 const express = require('express');
 const app = express();
+
 const bodyParser = require('body-parser').urlencoded({extended: true});
 const PORT = process.env.PORT || 3000;
 
@@ -26,5 +27,6 @@ app.post('/articles', bodyParser, function(request, response) {
 })
 
 app.listen(PORT, function() {
-  // TODO: Log to the console a message that lets you know which port your server has started on
+  // DONE: Log to the console a message that lets you know which port your server has started on
+  console.log('App is listening on port ' + PORT);
 });
