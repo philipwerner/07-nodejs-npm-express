@@ -1,0 +1,28 @@
+{
+  "name": "blog-articles",
+  "version": "1.0.0",
+  "description": "Lab 7 working with node and npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipwerner/07-nodejs-npm-express.git"
+  },
+  "keywords": [
+    "blog",
+    "node",
+    "npm"
+  ],
+  "author": "phil - ryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philipwerner/07-nodejs-npm-express/issues"
+  },
+  "homepage": "https://github.com/philipwerner/07-nodejs-npm-express#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
